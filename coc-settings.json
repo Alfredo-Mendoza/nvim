@@ -1,0 +1,67 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["angular", "css", "markdown", "javascript", "html", "json", "python"],
+
+  // css
+  "css.colorDecorators.enable": true ,
+  "css.enable": true,
+  "css.lint.duplicateProperties": "error",
+  "css.lint.emptyRules": "error",
+  "css.lint.float": "warning",
+  "css.lint.hexColorLength": "error",
+  "css.lint.importStatement": "warning",
+  "css.lint.propertyIgnoredDueToDisplay": "warning",
+  "css.lint.unknownProperties": "error",
+  "css.trace.server": "messages",
+  "less.colorDecorators.enable": true ,
+  "less.lint.duplicateProperties": "error",
+  "less.lint.emptyRules": "error",
+  "less.lint.float": "warning",
+  "less.lint.hexColorLength": "error",
+  "less.lint.importStatement": "warning",
+  "less.lint.propertyIgnoredDueToDisplay": "warning",
+  "less.lint.unknownProperties": "error",
+  "less.validate": true, 
+  "scss.colorDecorators.enable": true ,
+  "scss.lint.duplicateProperties": "error",
+  "scss.lint.emptyRules": "error",
+  "scss.lint.float": "warning",
+  "scss.lint.hexColorLength": "error",
+  "scss.lint.importStatement": "warning",
+  "scss.lint.propertyIgnoredDueToDisplay": "warning",
+  "scss.lint.unknownProperties": "error",
+  "scss.validate": true,
+
+  // Explorer
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": "content",
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+
+  // html config
+  "html.autoClosingTags": true,
+  "html.enable": true,
+  "html.filetypes": [
+    "html",
+    "handlebars",
+    "htmldjango",
+    "blade",
+    "javascript"
+  ],
+  "html.format.enable": true,
+  "html.format.indentInnerHtml": true,
+  "html.suggest.html5": true,
+  "html.trace.server": true,
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+  "html.validate.html": true,
+
+  // python config
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+
+  // Snippets
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips"
+}
