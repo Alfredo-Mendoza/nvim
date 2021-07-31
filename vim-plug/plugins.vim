@@ -27,7 +27,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     Plug 'SirVer/ultisnips'                                 " Motor de busqueda para snippets
     Plug 'honza/vim-snippets'                               " Snippets globales de la comunidad
-    Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}        " Live server para html, css y javascript
     Plug 'euclio/vim-markdown-composer'                     " Live de Markdown
     Plug 'lukas-reineke/indent-blankline.nvim'              " Guias de identación
     Plug 'camspiers/animate.vim'                            " Animaciones de transición
